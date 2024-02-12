@@ -1,0 +1,113 @@
+.card {
+  background: rgb(168, 0, 223);
+  background: linear-gradient(
+    90deg,
+    rgba(168, 0, 223, 1) 0%,
+    rgba(172, 6, 170, 1) 35%,
+    rgba(86, 0, 255, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 90%;
+  gap: 2rem;
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+}
+
+.card__avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.card__location {
+  font-weight: 300;
+  font-size: 0.95rem;
+}
+
+.card__subtitle {
+  font-weight: 500;
+  font-size: 0.25rem;
+  font-size: 1.25rem;
+}
+
+.card__links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.card__link {
+  text-align: center;
+  width: 100%;
+  padding: 0.75rem 0;
+  border: 0.0625rem solid transparent;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.card__link--portfolio,
+.card__link--github,
+.card__link--frontendmentor,
+.card__link--linkedin,
+.card__link--instagram,
+.card__link--email {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.card__link--portfolio:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+.card__link--github:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+.card__link--frontendmentor:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+.card__link--linkedin:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+.card__link--instagram:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+.card__link--email:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
